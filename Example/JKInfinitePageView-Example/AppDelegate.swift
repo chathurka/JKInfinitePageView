@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  JKInfinitePageView-Sample
+//  JKInfinitePageView-Example
 //
-//  Created by Joe on 2017/3/13.
-//  Copyright © 2017年 Joe. All rights reserved.
+//  Created by Joe on 2017/12/28.
+//  Copyright © 2017年 joe. All rights reserved.
 //
 
 import UIKit

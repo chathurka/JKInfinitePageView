@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7CBDAE921FF4A6CD007D6D22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBDAE911FF4A6CD007D6D22 /* AppDelegate.swift */; };
+		7CBDAE941FF4A6CD007D6D22 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBDAE931FF4A6CD007D6D22 /* ViewController.swift */; };
+		7CBDAE971FF4A6CD007D6D22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CBDAE951FF4A6CD007D6D22 /* Main.storyboard */; };
+		7CBDAE991FF4A6CD007D6D22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CBDAE981FF4A6CD007D6D22 /* Assets.xcassets */; };
+		7CBDAE9C1FF4A6CD007D6D22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CBDAE9A1FF4A6CD007D6D22 /* LaunchScreen.storyboard */; };
+		7CBDAEA91FF4A77A007D6D22 /* JKInfinitePageView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CBDAEA81FF4A745007D6D22 /* JKInfinitePageView.framework */; };
+		7CBDAEAA1FF4A77A007D6D22 /* JKInfinitePageView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7CBDAEA81FF4A745007D6D22 /* JKInfinitePageView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7CBDAEA71FF4A745007D6D22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CBDAEA31FF4A745007D6D22 /* JKInfinitePageView.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7CBDAE711FF4A4A8007D6D22;
+			remoteInfo = JKInfinitePageView;
+		};
+		7CBDAEAB1FF4A77A007D6D22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CBDAEA31FF4A745007D6D22 /* JKInfinitePageView.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CBDAE701FF4A4A8007D6D22;
+			remoteInfo = JKInfinitePageView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7CBDAEAD1FF4A77B007D6D22 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7CBDAEAA1FF4A77A007D6D22 /* JKInfinitePageView.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7CBDAE8E1FF4A6CD007D6D22 /* JKInfinitePageView-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JKInfinitePageView-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CBDAE911FF4A6CD007D6D22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7CBDAE931FF4A6CD007D6D22 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7CBDAE961FF4A6CD007D6D22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7CBDAE981FF4A6CD007D6D22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CBDAE9B1FF4A6CD007D6D22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7CBDAE9D1FF4A6CD007D6D22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CBDAEA31FF4A745007D6D22 /* JKInfinitePageView.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = JKInfinitePageView.xcodeproj; path = ../JKInfinitePageView.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CBDAE8B1FF4A6CD007D6D22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CBDAEA91FF4A77A007D6D22 /* JKInfinitePageView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7CBDAE851FF4A6CD007D6D22 = {
+			isa = PBXGroup;
+			children = (
+				7CBDAE901FF4A6CD007D6D22 /* JKInfinitePageView-Example */,
+				7CBDAE8F1FF4A6CD007D6D22 /* Products */,
+				7CBDAEA31FF4A745007D6D22 /* JKInfinitePageView.xcodeproj */,
+			);
+			sourceTree = "<group>";
+		};
+		7CBDAE8F1FF4A6CD007D6D22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CBDAE8E1FF4A6CD007D6D22 /* JKInfinitePageView-Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CBDAE901FF4A6CD007D6D22 /* JKInfinitePageView-Example */ = {
+			isa = PBXGroup;
+			children = (
+				7CBDAE911FF4A6CD007D6D22 /* AppDelegate.swift */,
+				7CBDAE931FF4A6CD007D6D22 /* ViewController.swift */,
+				7CBDAE951FF4A6CD007D6D22 /* Main.storyboard */,
+				7CBDAE981FF4A6CD007D6D22 /* Assets.xcassets */,
+				7CBDAE9A1FF4A6CD007D6D22 /* LaunchScreen.storyboard */,
+				7CBDAE9D1FF4A6CD007D6D22 /* Info.plist */,
+			);
+			path = "JKInfinitePageView-Example";
+			sourceTree = "<group>";
+		};
+		7CBDAEA41FF4A745007D6D22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CBDAEA81FF4A745007D6D22 /* JKInfinitePageView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CBDAE8D1FF4A6CD007D6D22 /* JKInfinitePageView-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CBDAEA01FF4A6CD007D6D22 /* Build configuration list for PBXNativeTarget "JKInfinitePageView-Example" */;
+			buildPhases = (
+				7CBDAE8A1FF4A6CD007D6D22 /* Sources */,
+				7CBDAE8B1FF4A6CD007D6D22 /* Frameworks */,
+				7CBDAE8C1FF4A6CD007D6D22 /* Resources */,
+				7CBDAEAD1FF4A77B007D6D22 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CBDAEAC1FF4A77A007D6D22 /* PBXTargetDependency */,
+			);
+			name = "JKInfinitePageView-Example";
+			productName = "JKInfinitePageView-Example";
+			productReference = 7CBDAE8E1FF4A6CD007D6D22 /* JKInfinitePageView-Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CBDAE861FF4A6CD007D6D22 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = joe;
+				TargetAttributes = {
+					7CBDAE8D1FF4A6CD007D6D22 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7CBDAE891FF4A6CD007D6D22 /* Build configuration list for PBXProject "JKInfinitePageView-Example" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7CBDAE851FF4A6CD007D6D22;
+			productRefGroup = 7CBDAE8F1FF4A6CD007D6D22 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 7CBDAEA41FF4A745007D6D22 /* Products */;
+					ProjectRef = 7CBDAEA31FF4A745007D6D22 /* JKInfinitePageView.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				7CBDAE8D1FF4A6CD007D6D22 /* JKInfinitePageView-Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		7CBDAEA81FF4A745007D6D22 /* JKInfinitePageView.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = JKInfinitePageView.framework;
+			remoteRef = 7CBDAEA71FF4A745007D6D22 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CBDAE8C1FF4A6CD007D6D22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CBDAE9C1FF4A6CD007D6D22 /* LaunchScreen.storyboard in Resources */,
+				7CBDAE991FF4A6CD007D6D22 /* Assets.xcassets in Resources */,
+				7CBDAE971FF4A6CD007D6D22 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CBDAE8A1FF4A6CD007D6D22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CBDAE941FF4A6CD007D6D22 /* ViewController.swift in Sources */,
+				7CBDAE921FF4A6CD007D6D22 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7CBDAEAC1FF4A77A007D6D22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JKInfinitePageView;
+			targetProxy = 7CBDAEAB1FF4A77A007D6D22 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7CBDAE951FF4A6CD007D6D22 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CBDAE961FF4A6CD007D6D22 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7CBDAE9A1FF4A6CD007D6D22 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CBDAE9B1FF4A6CD007D6D22 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7CBDAE9E1FF4A6CD007D6D22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7CBDAE9F1FF4A6CD007D6D22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CBDAEA11FF4A6CD007D6D22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AZ5GBDWZ9H;
+				INFOPLIST_FILE = "JKInfinitePageView-Example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joe.JKInfinitePageView-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7CBDAEA21FF4A6CD007D6D22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AZ5GBDWZ9H;
+				INFOPLIST_FILE = "JKInfinitePageView-Example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joe.JKInfinitePageView-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CBDAE891FF4A6CD007D6D22 /* Build configuration list for PBXProject "JKInfinitePageView-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CBDAE9E1FF4A6CD007D6D22 /* Debug */,
+				7CBDAE9F1FF4A6CD007D6D22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CBDAEA01FF4A6CD007D6D22 /* Build configuration list for PBXNativeTarget "JKInfinitePageView-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CBDAEA11FF4A6CD007D6D22 /* Debug */,
+				7CBDAEA21FF4A6CD007D6D22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7CBDAE861FF4A6CD007D6D22 /* Project object */;
+}

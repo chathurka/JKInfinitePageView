@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import JKInfinitePageView
 
 class GrayView: UIView{
     
@@ -62,7 +63,6 @@ extension ViewController: JKInfinitePageViewDataSource{
         }
         afterView.white = newWhite
         
-        print(newWhite)
         return afterView
     }
 }
