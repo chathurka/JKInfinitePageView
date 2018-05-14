@@ -66,6 +66,13 @@ public class JKInfinitePageView: UIView {
     fileprivate var collectionView: UICollectionView!
     fileprivate var currentIndexPath: IndexPath = IndexPath(item: Int(Int16.max/2), section: 0)
     fileprivate var willDisplayIndexPath: IndexPath!
+    private var first: Bool = true
+    
+    public override var backgroundColor: UIColor? {
+        didSet {
+            collectionView?.backgroundColor = backgroundColor
+        }
+    }
     
     open var isScrollEnabled: Bool = true{
         didSet{
@@ -122,18 +129,18 @@ public class JKInfinitePageView: UIView {
     }
     
     open override func layoutSubviews() {
-        super.layoutSubviews()
-        
         guard let flowLayout = collectionView.collectionViewLayout as? UICollectionViewFlowLayout else {
             return
         }
         flowLayout.itemSize = bounds.size
         flowLayout.invalidateLayout()
         
-        layoutIfNeeded()
-        collectionView.setContentOffset(CGPoint(x: CGFloat(currentIndexPath.item) * bounds.width, y: 0), animated: false)
+        super.layoutSubviews()
         
-        flowLayout.invalidateLayout()
+        if first {
+            first = false
+            collectionView.setContentOffset(CGPoint(x: CGFloat(currentIndexPath.item) * bounds.width, y: 0), animated: false)
+        }
     }
     
     public func setView(_ view: UIView) {
